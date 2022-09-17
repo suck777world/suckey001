@@ -1,0 +1,19 @@
+{
+  "name": "suckey001",
+  "main": "./lib/suckey001",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "suckey001:toggle"
+  },
+  "repository": "https://github.com/atom/suckey001",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

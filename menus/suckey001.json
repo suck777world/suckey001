@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle suckey001",
+        "command": "suckey001:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "suckey001",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "suckey001:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
